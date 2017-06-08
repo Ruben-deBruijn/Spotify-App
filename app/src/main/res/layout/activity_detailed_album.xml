@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detailed_album"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ruben.spotifyTentamen.DetailedAlbumActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:color/holo_green_light"
+        android:id="@+id/detailedImageView"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:src="@android:drawable/ic_media_play"
+        android:text="Play Album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playButton"
+        tools:text="Play Album"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:fontFamily="sans-serif-medium"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textStyle="normal|italic"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_gravity="bottom|center"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="16dp"
+        android:elevation="6dp"/>
+
+</FrameLayout>
